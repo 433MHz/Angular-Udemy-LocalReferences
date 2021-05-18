@@ -1,0 +1,9 @@
+<div class="container">
+
+  <input type="text" placeholder="Write something" #textInput>
+
+  <button (click)="setData(textInput)">Send</button><br>
+
+  <p>Value: {{data}}</p>
+  <p>Placeholder: {{placeholder}}</p>
+</div>
